@@ -1,0 +1,64 @@
+ohmybuck.com:
+  - name: ohmybuck.com
+    type: CNAME
+    value: olmesm.github.io
+    proxied: true
+  - name: readme
+    type: CNAME
+    value: na-west1.surge.sh
+    proxied: true
+  - name: www
+    type: CNAME
+    value: ohmybuck.com
+    proxied: true
+
+branchna.me:
+  - name: branchna.me
+    type: CNAME
+    value: olmesm.github.io
+
+olmego.co:
+  - name: olmego.co
+    type: CNAME
+    value: olmesm.gitlab.io
+    proxied: true
+  - name: www
+    type: CNAME
+    value: olmego.co
+    proxied: true
+  - name: olmego.co
+    type: MX
+    priority: 10
+    value: alt4.aspmx.l.google.com
+  - name: olmego.co
+    type: MX
+    priority: 10
+    value: alt3.aspmx.l.google.com
+  - name: olmego.co
+    type: MX
+    priority: 6
+    value: alt2.aspmx.l.google.com
+  - name: olmego.co
+    type: MX
+    priority: 5
+    value: alt1.aspmx.l.google.com
+  - name: olmego.co
+    type: MX
+    priority: 1
+    value: aspmx.l.google.com
+  - name: olmego.co
+    type: MX
+    priority: 15
+    value: wgmowb5gf6isi4nmiyn56jj3lx4f4t6e2nltowt32qhawahjkrjq.mx-verification.google.com
+  - name: experimental-w8
+    type: NS
+    value: ns-cloud-a2.googledomains.com
+  - name: experimental-w8
+    type: NS
+    value: ns-cloud-a1.googledomains.com
+  - name: _gitlab-pages
+    type: TXT
+    value: gitlab-pages-verification-code=45ac0ac090a9ad7be57e9cd1543e6ee9
+  - name: olmego.co
+    type: TXT
+    value: google-site-verification=cWNZC6eBeOs3zJmlXMzkvCJxZb03RN0bGQRARW__Ico
