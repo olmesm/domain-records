@@ -7,6 +7,10 @@ ohmybuck.com:
     type: CNAME
     value: na-west1.surge.sh
     proxied: true
+  - name: dmarc-analyzer
+    type: CNAME
+    value: na-west1.surge.sh
+    proxied: true
   - name: www
     type: CNAME
     value: ohmybuck.com
