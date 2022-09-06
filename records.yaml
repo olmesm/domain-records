@@ -15,6 +15,10 @@ ohmybuck.com:
     type: CNAME
     value: ohmybuck.com
     proxied: true
+  - name: portal
+    type: CNAME
+    value: na-west1.surge.sh
+    proxied: true
 
 branchna.me:
   - name: branchna.me
