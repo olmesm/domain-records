@@ -34,7 +34,7 @@ locals {
 
   map_list = {
     for domain, records in local.yaml_values : "${domain}" => {
-      for record in records : "${substr(record.name, 0, 12)}-${md5(record.value)}" => record
+      for record in records : "${substr(record.name, 0, 12)}-${md5("${record.name}-${record.value}")}" => record
     }
   }
 }
