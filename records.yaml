@@ -19,6 +19,10 @@ ohmybuck.com:
     type: CNAME
     value: na-west1.surge.sh
     proxied: true
+  - name: hybrids
+    type: CNAME
+    value: olmesm.github.io
+    proxied: true
 
 branchna.me:
   - name: branchna.me
