@@ -22,7 +22,6 @@ ohmybuck.com:
   - name: hybrids
     type: CNAME
     value: olmesm.github.io
-    proxied: true
 
 branchna.me:
   - name: branchna.me
