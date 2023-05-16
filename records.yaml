@@ -23,7 +23,7 @@ ohmybuck.com:
     type: CNAME
     value: olmesm.github.io
     proxied: true
-  - name: mui-form-creator.ohmybuck.com
+  - name: mui-form.ohmybuck.com
     type: CNAME
     value: olmesm.github.io
     proxied: true
