@@ -73,7 +73,7 @@ sh ./scripts/decode-service-account-from-env.sh
 sh scripts/create-terraform-state-bucket.sh <GCP_PROJECT_ID> [BUCKET_NAME]
 # ie sh scripts/create-terraform-state-bucket.sh rad-domain
 
-terraform init
-terraform plan
-terraform apply
+tofu init
+tofu plan
+tofu apply
 ```

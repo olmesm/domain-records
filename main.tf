@@ -1,10 +1,10 @@
-variable "cloudflare_email" {
-  description = "TF_VAR_cloudflare_email"
-  type        = string
-}
+# variable "cloudflare_email" {
+#   description = "TF_VAR_cloudflare_email"
+#   type        = string
+# }
 
-variable "cloudflare_api_key" {
-  description = "TF_VAR_cloudflare_api_key"
+variable "cloudflare_api_token" {
+  description = "TF_VAR_cloudflare_api_token"
   type        = string
 }
 
@@ -19,14 +19,14 @@ terraform {
   required_providers {
     cloudflare = {
       source  = "cloudflare/cloudflare"
-      version = "~> 3.0"
+      version = "~> 4.0"
     }
   }
 }
 
 provider "cloudflare" {
-  email   = var.cloudflare_email
-  api_key = var.cloudflare_api_key
+  # email   = var.cloudflare_email
+  api_token = var.cloudflare_api_token
 }
 
 locals {
