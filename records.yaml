@@ -6,6 +6,9 @@ ohmybuck.com:
   - name: readme
     type: CNAME
     value: na-west1.surge.sh
+  - name: template-mate
+    type: CNAME
+    value: na-west1.surge.sh
     proxied: true
   - name: dmarc-analyzer
     type: CNAME
