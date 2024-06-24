@@ -42,8 +42,5 @@ branchna.me:
 
 blurb.works:
   - name: blurb.works
-    type: A
-    value: 76.76.21.21
-  - name: www
     type: CNAME
-    value: cname.vercel-dns.com
+    value: blurbworks.fly.dev
