@@ -41,6 +41,23 @@ branchna.me:
     value: olmesm.github.io
 
 blurb.works:
-  - name: @
+  - name: "@"
     type: CNAME
     value: blurbworks.fly.dev
+  - name: send
+    type: MX
+    value: feedback-smtp.us-east-1.amazonses.com
+    priority: 10
+    ttl: Auto
+  - name: send
+    type: TXT
+    value: v=spf1 include:amazonses.com ~all
+    ttl: Auto
+  - name: resend._domainkey
+    type: TXT
+    value: p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5rYeIpkQGChAvygDkuoyXRr3pM7hVHq40NGomCBBeiqYPCKM/cXMzndBoqVT1IUL2lssXUrXKOVUSoiFB96Q0G50fTd8iZZkSUBOUao7fZcu0RJLoD36M6DnoC/VaqLdmI1rpIHvyBgx6GWJFiIYLVfhnum9Li7jFMrYh0kTMRQIDAQAB
+    ttl: Auto
+  - name: _dmarc
+    type: TXT
+    value: v=DMARC1; p=none;
+    ttl: Auto
