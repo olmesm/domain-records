@@ -41,6 +41,6 @@ branchna.me:
     value: olmesm.github.io
 
 blurb.works:
-  - name: blurb.works
+  - name: @
     type: CNAME
     value: blurbworks.fly.dev
