@@ -57,3 +57,6 @@ blurb.works:
   - name: _dmarc
     type: TXT
     value: v=DMARC1; p=none;
+  - name: "@"
+    type: TXT
+    value: google-site-verification=FK2Dq5AFnDph1RAALHBMmIBz-DNSoP-AIELbiD2tpQg
