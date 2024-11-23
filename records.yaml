@@ -68,8 +68,8 @@ indias-art.co.uk:
 
 didath.ing:
   - name: "@"
-    type: CNAME
-    value: didathing.fly.dev
+    type: A
+    value: 76.76.21.21
   - name: send
     type: MX
     value: feedback-smtp.us-east-1.amazonses.com
