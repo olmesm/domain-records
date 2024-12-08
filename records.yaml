@@ -65,7 +65,6 @@ indias-art.co.uk:
   - name: indias-art.co.uk
     type: CNAME
     value: olmesm.github.io
-    proxied: true
 
 didath.ing:
   - name: "@"
