@@ -40,6 +40,14 @@ branchna.me:
     type: CNAME
     value: olmesm.github.io
 
+indias-art.co.uk:
+  - name: indias-art.co.uk
+    type: ALIAS
+    value: olmesm.gitlab.io
+  - name: _gitlab-pages-verification-code.indias-art.co.uk
+    type: TXT
+    value: gitlab-pages-verification-code=804fd3b9bc29ad7fdebe449f5a429e44
+
 blurb.works:
   - name: "@"
     type: CNAME
@@ -60,11 +68,6 @@ blurb.works:
   - name: "@"
     type: TXT
     value: google-site-verification=FK2Dq5AFnDph1RAALHBMmIBz-DNSoP-AIELbiD2tpQg
-
-indias-art.co.uk:
-  - name: indias-art.co.uk
-    type: CNAME
-    value: olmesm.github.io
 
 didath.ing:
   - name: "@"
