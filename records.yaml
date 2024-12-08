@@ -42,7 +42,7 @@ branchna.me:
 
 indias-art.co.uk:
   - name: indias-art.co.uk
-    type: ALIAS
+    type: CNAME
     value: olmesm.gitlab.io
   - name: _gitlab-pages-verification-code.indias-art.co.uk
     type: TXT
