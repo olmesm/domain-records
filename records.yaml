@@ -49,12 +49,15 @@ indias-art.co.uk:
     value: "gitlab-pages-verification-code=804fd3b9bc29ad7fdebe449f5a429e44"
 
 mental-health.support:
-  - name: mental-health.support
+  - name: www
     type: CNAME
-    value: olmesm.gitlab.io
-  - name: _gitlab-pages-verification-code.mental-health.support
+    value: sites.soloist.ai
+  - name: "@"
+    type: A
+    value: "34.128.166.114"
+  - name: "@"
     type: TXT
-    value: "gitlab-pages-verification-code=2f6de79db3f3d9e1e358755bfcd42b25"
+    value: "c07e9f12-a7fc-4985-a893-b4ebb630373b"
 
 blurb.works:
   - name: "@"
