@@ -8,12 +8,13 @@ variable "cloudflare_api_token" {
   type        = string
 }
 
-terraform {
-  backend "gcs" {
-    bucket = "domain-records"
-    prefix = "terraform/cloudflare_state"
-  }
-}
+# disable bucket backup -- yolo
+# terraform {
+#   backend "gcs" {
+#     bucket = "domain-records"
+#     prefix = "terraform/cloudflare_state"
+#   }
+# }
 
 terraform {
   required_providers {
